@@ -11,9 +11,14 @@
     "packager-all": "electron-packager . alura-timer --platform=darwin,linux,win32 --arch=x64 --icon=app/img/icon",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["electron", "html", "css", "javascript"],
+  "keywords": [
+    "electron",
+    "html",
+    "css",
+    "javascript"
+  ],
   "author": "Eduardo Marcelino",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "electron": "^1.6.1",
     "jsonfile-promised": "0.0.1",
