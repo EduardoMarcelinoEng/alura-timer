@@ -1,7 +1,7 @@
 {
   "name": "alura-timer",
   "version": "1.0.0",
-  "description": "",
+  "description": "Sistema desktop para contabilizar as horas de estudo por tema",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
