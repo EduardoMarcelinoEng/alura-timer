@@ -5,14 +5,21 @@
   "main": "main.js",
   "scripts": {
     "start": "electron .",
+    "packager-windows": "electron-packager . alura-timer --platform=win32 --arch=x64 --icon=app/img/icon.ico",
+    "packager-linux": "electron-packager . alura-timer --platform=linux --arch=x64 --icon=app/img/icon.png",
+    "packager-mac": "electron-packager . alura-timer --platform=darwin --arch=x64 --icon=app/img/icon.icns",
+    "packager-all": "electron-packager . alura-timer --platform=darwin,linux,win32 --arch=x64 --icon=app/img/icon",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["electron", "html", "css", "javascript"],
+  "author": "Eduardo Marcelino",
   "license": "ISC",
   "dependencies": {
     "electron": "^1.6.1",
     "jsonfile-promised": "0.0.1",
     "moment": "^2.29.3"
+  },
+  "devDependencies": {
+    "electron-packager": "^15.5.1"
   }
 }
